@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>introduction-to-css</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header"></header>
+        <h1 id="page-title">Introduction to CSS</h1>
+        <p class="intro-text">CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML or XML. It allows you to control the layout, colors, fonts, and overall appearance of web pages.</p>
+    </header>
+    <main>
+        <section id="what-is-css">
+            <h2>What is CSS?</h2>
+            <p>CSS is a powerful tool that enables web developers to create visually appealing and responsive designs. It separates content from presentation, allowing for easier maintenance and updates.</p>
+        </section>
+        <section id="basic-syntax">
+            <h2>Basic Syntax</h2>
+            <p>CSS rules consist of selectors and declarations. A selector targets an HTML element, while declarations define the styles to be applied.</p>
+            <pre><code>selector {
+    property: value; }</code></pre>
+            <p>For example:</p>
+            <pre><code>h1 {
+    color: blue; }
+p {
+    font-size: 16px; }</code></pre>
+        </section>
+        <section id="selectors">
+            <h2>Selectors</h2>
+            <p>CSS selectors are patterns used to select the elements you want to style. Common selectors include:</p>
+            <ul>
+                <li><strong>Element Selector:</strong> Selects all elements of a given type (e.g., <code>p</code> for paragraphs).</li>
+                <li><strong>Class Selector:</strong> Selects elements with a specific class (e.g., <code>.classname</code>).</li>
+                <li><strong>ID Selector:</strong> Selects an element with a specific ID (e.g., <code>#idname</code>).</li>
+            </ul>
+        </section>
+        <section id="box-model">
+            <h2>Box Model</h2>
+            <p>The CSS box model describes the rectangular boxes generated for elements in the document tree. It consists of margins, borders, padding, and the actual content.</p>
+            <img src="R.jpeg" alt="CSS Box Model" class="box-model-image" width="300">
+        </section>
+        <section id="responsive-design">
+            <h2>Responsive Design</h2>
+            <p>Responsive design ensures that web pages look good on all devices, from desktops to smartphones. CSS media queries allow you to apply different styles based on the device's characteristics.</p>
+            <pre><code>@media (max-width: 600px) {
+    body { 
+        background-color: lightblue; } }</code></pre>
+            <p>This example changes the background color to light blue when the viewport width is 600 pixels or less.</p>
+        </section>
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <p>CSS is an essential skill for web developers, enabling them to create visually appealing and user-friendly websites. By mastering CSS, you can enhance your web development skills and create stunning designs.</p>
+        </section>
+        <section id="resources">
+            <h2>Resources</h2>
+            <p>For more information on CSS, check out the following resources:</p>
+            <ul>
+                <li><a href="https://www.w3schools.com/css/" target="_blank">W3Schools CSS Tutorial</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs - CSS</a></li>
+                <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <p>&copy; 2023 Introduction to CSS</p>
+    </footer>
+</body>
+</html>
